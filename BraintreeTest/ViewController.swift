@@ -28,6 +28,8 @@ class ViewController: UIViewController, BTDropInViewControllerDelegate {
         let dropInViewController = brainTree!.dropInViewControllerWithDelegate(self);
         
         dropInViewController.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Cancel, target: self, action: "userDidCancelPayment")
+        let navigationController = UINavigationController(rootViewController: dropInViewController)
+        self.presentViewController(navigationController, animated: true, completion: nil)
     }
     
     func userDidCancelPayment() {

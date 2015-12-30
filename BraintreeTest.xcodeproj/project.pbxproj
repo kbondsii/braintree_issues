@@ -381,6 +381,7 @@
 					"\"UIKit\"",
 					"-weak_framework",
 					"\"PassKit\"",
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BraintreeTest/BraintreeTest-Bridging-Header.h";
@@ -420,6 +421,7 @@
 					"\"UIKit\"",
 					"-weak_framework",
 					"\"PassKit\"",
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BraintreeTest/BraintreeTest-Bridging-Header.h";
