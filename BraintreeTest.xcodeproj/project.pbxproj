@@ -147,6 +147,7 @@
 		8456A2441C211352006F860F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = SuphixPeak;
 				TargetAttributes = {
